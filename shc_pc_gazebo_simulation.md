@@ -10,7 +10,7 @@ To simulate a hexapod in the Gazebo simulation environment, you have to create t
 cd ~/openshc_ws/src
 ```
 
-4.2 Clone the bullet syropod package to the src folder in your workspace by,
+4.2 Clone the bullet_syropod package to the src folder in your workspace by,
 
 ```bash
 git clone https://github.com/csiro-robotics/bullet_syropod.git
@@ -34,7 +34,9 @@ catkin build
 source ~/openshc_ws/devel/setup.bash
 ```
 
-4.6 Plug the gamepad into your machine. We use a Logitech Wireless Gamepad (F710) for control. Other gamepads may be used, but the mapping may differ.
+4.6 Plug a gamepad controller into your machine such as the [Logitech F710 Wireless Gamepad](https://www.logitechg.com/en-au/products/gamepads/f710-wireless-gamepad.940-000119.html) for control. Other gamepads may be used, but the mapping may differ.
+
+![joystick](media/joystick.jpg "Logitech Joystick")
 
 4.7 Launch the Gazebo simulation from the terminal by,
 
@@ -46,7 +48,7 @@ roslaunch bullet_syropod bullet_highlevel.launch gazebo:=true
 
 ![gazebo_simulation](media/gazebo_simulation.png "Gazebo Simulation")
 
-4.9 Press the Logitech button after acquiring the robot state and press the start button to change it to the running state.
+4.9 Press the Logitech button after acquiring the robot state and press the start button to change it to the running state. If the simulation doesn't respond to the controller commands or if you have trouble getting the gamepad controller talking to ROS, please refer to the [ROS joystick tutorials here](http://wiki.ros.org/joy/Tutorials).
 
 4.10 After generating the workspace press the start button again to proceed.
 
