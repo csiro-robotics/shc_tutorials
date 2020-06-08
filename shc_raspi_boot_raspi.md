@@ -1,5 +1,7 @@
 # 2. Booting the Raspberry Pi
 
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
+
 [Previous: Flashing Ubuntu Server 18.04](shc_raspi_flash_ubuntu.md)
 
 After flashing the Ubuntu Server 18.04 image to the SD card, you can boot the Raspberry Pi 3 as follows.

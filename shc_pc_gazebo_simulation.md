@@ -1,5 +1,7 @@
 # 4. Simulating in the Gazebo Simulation Environment
 
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
+
 [Previous: Creating the Catkin Workspace](shc_pc_create_workspace.md)
 
 To simulate a hexapod in the Gazebo simulation environment, you have to create the required graphical objects. (URDF files, xacro files, Gazebo worlds etc...) You can clone the bullet syropod package which contains the required graphical objects for the syropod named bullet syropod.
@@ -52,7 +54,7 @@ roslaunch bullet_syropod bullet_highlevel.launch gazebo:=true
 
 4.10 After generating the workspace press the start button again to proceed.
 
-4.11 Visit [How to Control the Hexapod](shc_guide_hexapod.md) to learn how to control the hexapod from the joystick.
+4.11 Visit [How to Control the Legged Robot](shc_guide_hexapod.md) to learn how to control the hexapod from the joystick.
 
 * This simulation displays the Bullet Syropod. For other syropods you have to modify the configuration file `~/openshc_ws/src/<name_syropod>/config/<name>.yaml` accordingly and simulate them in the Rviz environment by the following command.
 
@@ -64,4 +66,4 @@ roslaunch bullet_syropod bullet_highlevel.launch gazebo:=true
 
 * You can simulate any syropod in the Rviz environment just by changing the configuration parameters in `~/openshc_ws/src/<name_syropod>/config/<name>.yaml` according to the syropod. However to simulate in the Gazebo simulation environment, you have to create the required model for that specific syropod. (URDF files, xacro files, Gazebo worlds etc...)
 
-[Next: Preparing the Hexapod](shc_pc_prepare_hexapod.md)
+[Next: Preparing the Legged Robot](shc_pc_prepare_hexapod.md)

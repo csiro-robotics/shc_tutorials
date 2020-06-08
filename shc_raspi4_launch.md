@@ -1,10 +1,12 @@
 # 7. Launching SHC
 
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
+
 [Previous: OPTIONAL: Setting Up SHC to Run at Launch](shc_raspi4_run_at_launch.md)
 
-After preparing the hexapod, you can launch the ROS launch files and implement SHC with the real hexapod.
+After preparing the legged robot, you can launch the ROS launch files and run SHC on the real legged robot.
 
-7.1 Power on the hexapod
+7.1 Power on the legged robot to power the motors and the Raspberry Pi.
 
 7.2 Allow some time for the Pi to boot and connect to the robot's hotspot.
 
@@ -53,7 +55,7 @@ roslaunch frankenX_syropod frankenX_start.launch
 
 ![running_state](media/running_state.png "Running State")
 
-7.13 When the workspace is generated and the syropod is ready to walk you can control the hexapod from the joystick. Visit [How to Control the Hexapod](shc_guide_hexapod.md) to learn how to control the hexapod from the joystick.
+7.13 When the workspace is generated and the syropod is ready to walk you can control the hexapod from the joystick. Visit [How to Control the Legged Robot](shc_guide_hexapod.md) to learn how to control the hexapod from the joystick.
 
 7.14 See [Troubleshooting](troubleshooting.md) if you encounter any problems.
 

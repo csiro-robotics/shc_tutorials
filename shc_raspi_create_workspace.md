@@ -1,5 +1,7 @@
 # 5. Creating the Catkin Workspace
 
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
+
 [Previous: Installing Other Required Packages](shc_raspi_install_other.md)
 
 After installing ROS and other required packages, a catkin workspace should be created including the required ROS packages. You can visit [Installing and Configuring Your ROS Environment](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment) to see more details.
@@ -17,7 +19,7 @@ mkdir -p ~/openshc_ws/src
 cd ~/openshc_ws/src
 ```
 
-5.3 Clone the Hexapod package to the src folder in your workspace by,
+5.3 Clone the legged robot package to the src folder in your workspace by,
 
 ```bash
 git clone https://github.com/csiro-robotics/frankenX_syropod.git

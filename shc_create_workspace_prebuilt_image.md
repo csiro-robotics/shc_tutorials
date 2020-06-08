@@ -1,5 +1,7 @@
 # 3. Configuring the Catkin Workspace
 
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
+
 [Previous: Booting the Pi for the First Time](shc_raspi4_boot.md)
 
 After installing ROS and other required packages, a catkin workspace should be created including the required ROS packages. You can visit [Installing and Configuring Your ROS Environment](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment) to see more details. As this image was created with a specific project in mind you will first need to remove the original catkin workspace to proceed. DO NOT REMOVE ROS_CATKIN_WS. This is the folder containing your Melodic install, not a standard catkin_ws.
@@ -36,7 +38,7 @@ cd ~/openshc_ws/src
 sudo apt-get install python-catkin-tools
 ```
 
-5.3 Clone the Hexapod package to the src folder in your workspace. Alternatively, use a custom package for your hexapod
+5.3 Clone the legged robot package to the src folder in your workspace. Alternatively, use a custom package for your legged robot
 
 ```bash
 git clone https://github.com/csiro-robotics/frankenX_syropod.git

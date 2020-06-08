@@ -1,10 +1,12 @@
 # 10. Launching SHC
 
-[Previous: Preparing the Hexapod](shc_raspi_prepare_hexapod.md)
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
 
-After preparing the hexapod, you can launch the ROS launch files and implement SHC with the real hexapod.
+[Previous: Preparing the Legged Robot](shc_raspi_prepare_hexapod.md)
 
-10.1 Turn on the switch of the hexapod to turn on the motors and boot the Raspberry Pi.
+After preparing the legged robot, you can launch the ROS launch files and run SHC on the real legged robot.
+
+10.1 Turn on the switch of the legged robot to turn on the motors and boot the Raspberry Pi.
 
 10.2 Allow some time for the Raspberry Pi to boot and log on to your router or the mobile hotspot to find the ip-address of the Raspberry Pi.
 
@@ -14,7 +16,7 @@ After preparing the hexapod, you can launch the ROS launch files and implement S
 ssh username@ip-address
 ```
 
-* Here username should be the username of the Raspberry Pi (default is ubuntu) and ip-address should be the ip address of the Raspberry Pi obtained by the router or the mobile hotspot. (e.g. ssh ubuntu@192.168.1.1)
+* Here username should be the username of the Raspberry Pi (default is ubuntu) and ip-address should be the IP address of the Raspberry Pi obtained by the router or the mobile hotspot. (e.g. ssh ubuntu@192.168.1.1)
 
 10.4 Enter your log in details and log in to the Raspberry Pi.
 
@@ -62,7 +64,7 @@ roslaunch frankenX_syropod frankenX_start.launch
 
 ![running_state](media/running_state.png "Running State")
 
-10.15 When the workspace is generated and the syropod is ready to walk you can control the hexapod from the joystick. Visit [How to Control the Hexapod](shc_guide_hexapod.md) to learn how to control the hexapod from the joystick.
+10.15 When the workspace is generated and the robot is ready to walk you can control the robot from the joystick. Visit [How to Control the Legged Robot](shc_guide_hexapod.md) to learn how to control the legged robot from the joystick.
 
 [//]: # (Insert the embedded link of PhantomX implementation with Raspberry Pi.mp4 here)
 

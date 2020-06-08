@@ -1,4 +1,8 @@
-# How to Control the Hexapod
+# How to Control the Legged Robot
+
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
+
+[Back to the main page](README.md)
 
 ## Basic Control
 
@@ -57,3 +61,6 @@ LOGITECH -> START -> START
 
 * __Parameter Adjustment:__
   Adjusts selected parameter by incrementing/decrementing according to adjustment step amount defined in config/hexapod.yaml.
+  
+  [Back to the main page](README.md)
+

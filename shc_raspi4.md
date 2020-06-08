@@ -1,8 +1,10 @@
 # Implementing SHC on a Raspberry Pi 4
 
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
+
 [Back to the main page](README.md)
 
-The following tutorials will help to implement and use Syropod Highlevel Controller (SHC) package in a Raspberry Pi 4.
+The following tutorials will help to implement and use Syropod Highlevel Controller (SHC) package on a Raspberry Pi 4.
 
 1. [Installing Raspian Buster and ROS Melodic](shc_raspian_image.md)
 2. [Booting the Pi for the First Time and Initial Setup](shc_raspi4_boot.md)

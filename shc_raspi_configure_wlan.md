@@ -1,5 +1,7 @@
 # 7. Configuring WLAN Settings
 
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
+
 [Back: Compiling the Catkin Workspace](shc_raspi_compile_workspace.md)
 
 You can configure the WLAN settings in your Raspberry Pi to make it connect to a known Wi-Fi network at startup as follows.

@@ -1,5 +1,7 @@
 # 1. Flashing Ubuntu Server 18.04
 
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
+
 [Back to Implementing SHC on a Raspberry Pi 3](shc_raspi.md)
 
 The first step of implementing SHC on a Raspberry Pi 3 is to flash Ubuntu Server 18.04 image to the Raspberry Pi 3. The following steps will help you to download and flash a Ubuntu Server 18.04 image to a SD card.

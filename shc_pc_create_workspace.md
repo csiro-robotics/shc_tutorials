@@ -1,5 +1,7 @@
 # 3. Creating the Catkin Workspace
 
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
+
 [Previous: Installing Other Required Packages](shc_pc_install_other.md)
 
 After installing ROS a catkin workspace should be created including the required ROS packages. You can visit [Installing and Configuring Your ROS Environment](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment) to see more details.

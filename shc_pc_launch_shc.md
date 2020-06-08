@@ -1,8 +1,10 @@
 # 6. Launching SHC
 
-[Previous: Preparing the Hexapod](shc_pc_prepare_hexapod.md)
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
 
-After preparing the hexapod, you can launch the ROS launch files and implement SHC with the real hexapod.
+[Previous: Preparing the Legged Robot](shc_pc_prepare_hexapod.md)
+
+After preparing the legged robot, you can now launch the ROS launch files and run SHC with the real legged robot.
 
 6.1 Source the devel/setup.bash file from your workspace if it is not added to the .bashrc file.
 
@@ -10,7 +12,7 @@ After preparing the hexapod, you can launch the ROS launch files and implement S
 source ~/openshc_ws/devel/setup.bash
 ```
 
-6.2 Turn on the switch of the hexapod so that the motors are turned on and make sure the TTL to USB dynamixel converter is connected into your machine.
+6.2 Turn on the switch of the robot so that the motors are powered up and make sure the USB2Dynamixel or USB2ax converter is connected to your computer.
 
 6.3 Give read/write access to the relevant port (ttyACM0 should be replaced with your matched port if necessary) by,
 
@@ -66,9 +68,9 @@ roslaunch frankenX_syropod frankenX_highlevel.launch
 
 ![running_state](media/running_state.png "Running State")
 
-6.11 When the workspace is generated and the syropod is ready to walk you can control the hexapod from the joystick. Visit [How to Control the Hexapod](shc_guide_hexapod.md) to learn how to control the hexapod from the joystick.
+6.11 When the workspace is generated and the robot is ready to walk you can control the robot from the joystick. Visit [How to Control the Legged Robot](shc_guide_hexapod.md) to learn how to control the legged robot from the joystick.
 
-* You can use syropod rqt reconfigure control GUI to control the hexapod instead of syropod remote. See [How to use Syropod RQT Reconfigure Control](shc_rqt_reconfigure_control.md) for more details.
+* You can use syropod rqt reconfigure control GUI to control the robot instead of syropod remote. See [How to use Syropod RQT Reconfigure Control](shc_rqt_reconfigure_control.md) for more details.
 
 [//]: # (Insert the embedded link of PhantomX implementation with PC.mp4 here)
 

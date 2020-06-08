@@ -1,5 +1,7 @@
 # 6. OPTIONAL: Setting Up SHC to Run at Launch
 
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
+
 [Previous: Configuring The Wireless Access Point](shc_raspi4_configure_AP.md)
 
 This step is optional. The instructions below outline enabling the robot to launch SHC and prepare to walk on startup rather than requiring manual activation and are adapted from this [article](https://risc.readthedocs.io/2-auto-service-start-afer-boot.html)

@@ -1,5 +1,7 @@
 # 4. Installing Other Required Packages
 
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
+
 [Previous: Installing ROS](shc_raspi_install_ros.md)
 
 The following packages should be installed in addition to ROS for the successful implementation of SHC.

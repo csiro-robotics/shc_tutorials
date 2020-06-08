@@ -1,5 +1,7 @@
 # 5. Configuring the Wireless Access Point
 
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
+
 [Previous: Compiling the Catkin Workspace](shc_raspi4_compile_workspace.md)
 
 These instructions will show you how to setup a wireless access point which starts on boot. This will allow you to access the robot easily using SSH.

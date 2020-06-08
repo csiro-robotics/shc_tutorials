@@ -1,5 +1,7 @@
 # 6. Compiling the Catkin Workspace
 
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
+
 [Previous: Create the Catkin Workspace](shc_raspi_compile_workspace.md)
 
 Since a Raspberry Pi has limited resources, the compiling of the Syropod Highlevel Controller (SHC) package requires to create a swapfile of 4GB to overcome insufficient memory.

@@ -1,5 +1,7 @@
 # 2. Booting the Raspberry Pi and Performing Initial Setup
 
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
+
 [Previous: Installing Raspian Buster and ROS Melodic](shc_raspian_image.md)
 
 After flashing the Raspian Buster to the SD card you can boot the Raspberry Pi 4 as follows.
@@ -16,7 +18,7 @@ After flashing the Raspian Buster to the SD card you can boot the Raspberry Pi 4
 
 2.6 Attempt to open a browser window to ensure the board has succesfully acquired internet.
 
-2.7 Optional: If you intend to utilise the CSIRO Pi Hat which communicates over UART you will need to disble the bluetooth as follows (adapted from [raspberrypi.org](https://www.raspberrypi.org/documentation/configuration/uart.md))
+2.7 Optional: If you intend to utilise the CSIRO Pi Hat (not available yet) which communicates over UART, you will need to disble the bluetooth as follows (adapted from [raspberrypi.org](https://www.raspberrypi.org/documentation/configuration/uart.md))
 
 ```bash
 sudo raspi-config

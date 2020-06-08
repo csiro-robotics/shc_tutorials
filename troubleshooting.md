@@ -1,5 +1,7 @@
 # Troubleshooting
 
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
+
 [Back to the main page](README.md)
 
 ---
@@ -34,7 +36,7 @@ in the terminal for the two occasions the USB dynamixel converter is plugged in 
 
 ---
 
-**Problem:** When launching SHC, the hexapod movements are pretty slow and the hexapod seems to struggle.
+**Problem:** When launching SHC, the robot movements are pretty slow and the robot seems to struggle.
 
 **Solution:** Check the frequency of the state and command topics of joints by running the following two commands in the terminal and make sure they are in a similar range. (Ex:- 50Hz and 47Hz)
 
@@ -70,3 +72,6 @@ Check the value in time.sleep function under ping, read and write functions and 
 **Solution:** See the following page on running SHC at launch [here](shc_raspi4_run_at_launch.md)
 
 ---
+
+[Back to the main page](README.md)
+

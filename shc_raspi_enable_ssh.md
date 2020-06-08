@@ -1,5 +1,7 @@
 # 8. Enabling SSH
 
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
+
 [Back: Configuring WLAN Settings](shc_raspi_configure_wlan.md)
 
 SSH can be used to remotely login into your Raspberry Pi using a wireless network. This allows you to easily access the Raspberry Pi after the robot has been assembled without having to connect any interfacing hardware. By default SSH is installed with Ubuntu Server 18.04.
@@ -24,4 +26,4 @@ ssh username@ip-address
 
 8.5 Enter your log in details and log in to the Raspberry Pi.
 
-[Next: Preparing the Hexapod](shc_raspi_prepare_hexapod.md)
+[Next: Preparing the Legged Robot](shc_raspi_prepare_hexapod.md)

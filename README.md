@@ -8,7 +8,7 @@ Syropod Highlevel Controller (SHC) is a ROS package based on C++ which can be us
 
 1. [Implementing SHC on a PC](shc_pc.md)
 2. [Implementing SHC on a Raspberry Pi 3](shc_raspi.md)
-3. [Implementing SHC on a Raspberry Pi 4 (recommended if on robot platform)](shc_raspi4.md)
+3. [Implementing SHC on a Raspberry Pi 4](shc_raspi4.md)
 4. [Troubleshooting](troubleshooting.md)
 
 [![Gizmo Wizmo Zero](https://i.imgur.com/HCrmRDS.gif "CSIRO Syropods")](https://research.csiro.au/robotics/our-work/research-areas/legged-robots/)
@@ -18,3 +18,4 @@ Syropod Highlevel Controller (SHC) is a ROS package based on C++ which can be us
 * Oshada Jayasinghe
 * Marisa Bucolo
 * Benjamin Tam
+* Navinda Kottege

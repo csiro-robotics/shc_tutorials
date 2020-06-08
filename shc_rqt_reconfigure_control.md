@@ -1,5 +1,9 @@
 # How to use Syropod RQT Reconfigure Control
 
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
+
+[Back to the main page](README.md)
+
 Syropod rqt reconfigure control is an interface between user input via RQT Reconfigure Graphical User Interface (GUI) and the Syropod High-level Controller (SHC)
 
 * For using syropod rqt reconfigure control clone the package to the src folder in your workspace by,
@@ -54,3 +58,6 @@ Syropod rqt reconfigure control is an interface between user input via RQT Recon
 * Gait Selection - Controls the gait designation of the hexapod. Select the gait from Wave/Amble/Ripple/Tripod gaits using the drop down menu.
 
 * Cruise Control Mode - Select the cruise control mode to be ON/OFF from the drop down menu.
+
+[Back to the main page](README.md)
+

@@ -1,5 +1,7 @@
 # 1. Installing Raspian Buster and ROS Melodic from a Prebuilt Image
 
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
+
 [Back to Implementing SHC on a Raspberry Pi 4](shc_raspi4.md)
 
 The first step of implementing SHC on a Raspberry Pi 4 is to flash a publicly available image of Raspian Buster which already has ROS Melodic installed. This saves a significant amount of time as ROS must be built from source on this Operating System. If you wish to create an image yourself there is a link to the image creator's instructions.

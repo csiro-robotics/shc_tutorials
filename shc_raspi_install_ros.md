@@ -1,5 +1,7 @@
 # 3. Installing ROS
 
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
+
 [Previous: Booting the Raspberry Pi](shc_raspi_boot_raspi.md)
 
 After booting the Raspberry Pi with a working internet connection, you can install ROS Melodic by following these steps. You can visit [Ubuntu install of ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) to see a detailed guide on how to install ROS Melodic.

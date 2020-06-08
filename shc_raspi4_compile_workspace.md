@@ -1,5 +1,7 @@
 # 4. Compiling the Catkin Workspace
 
+[![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
+
 [Previous: Configuring the Catkin Workspace](shc_create_workspace_prebuilt_image.md)
 
 As the Raspberry Pi 4 has options up to 4GB of RAM a swapfile is often no longer needed for onboard compilation. If you have purchased the 1GB option, please follow compilation instructions for the Raspberry Pi 3 found [here](shc_raspi_compile_workspace.md)
