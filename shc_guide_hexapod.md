@@ -27,7 +27,7 @@ LOGITECH -> START -> START
 ## Button Functionality
 
 * __System State Transition:__
-  Controls SHC system state. Press to start/suspend/resume control.
+  Controls OpenSHC system state. Press to start/suspend/resume control.
 
 * __Robot State Increment:__
   Increments robot state. Press to transition forward through possible robot states. (i.e. PACKED->READY->RUNNING)

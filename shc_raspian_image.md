@@ -2,9 +2,9 @@
 
 [![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
 
-[Back to Implementing SHC on a Raspberry Pi 4](shc_raspi4.md)
+[Back to Implementing OpenSHC on a Raspberry Pi 4](shc_raspi4.md)
 
-The first step of implementing SHC on a Raspberry Pi 4 is to flash a publicly available image of Raspian Buster which already has ROS Melodic installed. This saves a significant amount of time as ROS must be built from source on this Operating System. If you wish to create an image yourself there is a link to the image creator's instructions.
+The first step of implementing OpenSHC on a Raspberry Pi 4 is to flash a publicly available image of Raspian Buster which already has ROS Melodic installed. This saves a significant amount of time as ROS must be built from source on this Operating System. If you wish to create an image yourself there is a link to the image creator's instructions.
 
 PLEASE NOTE: The creator of this image is not in any way affiliated with the CSIRO. As such CSIRO cannot guarantee these instructions will continue to be correct into the future. Please log a bug report if this guide is no longer accurate. Additionally, ROS packages from a source install cannot be acquired using apt, they will need to be downloaded as source and built as a standard ROS package.
 

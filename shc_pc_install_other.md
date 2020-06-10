@@ -4,7 +4,7 @@
 
 [Previous: Installing ROS](shc_pc_install_ros.md)
 
-The following packages should be installed in addition to ROS for the successful implementation of SHC.
+The following packages should be installed in addition to ROS for the successful implementation of OpenSHC.
 
 2.1 Install ROS joystick, ROS control, ROS controllers and python catkin tools packages by,
 

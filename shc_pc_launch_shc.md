@@ -1,10 +1,10 @@
-# 6. Launching SHC
+# 6. Launching OpenSHC
 
 [![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
 
 [Previous: Preparing the Legged Robot](shc_pc_prepare_hexapod.md)
 
-After preparing the legged robot, you can now launch the ROS launch files and run SHC with the real legged robot.
+After preparing the legged robot, you can now launch the ROS launch files and run OpenSHC with the real legged robot.
 
 6.1 Source the devel/setup.bash file from your workspace if it is not added to the .bashrc file.
 
@@ -36,9 +36,9 @@ roslaunch frankenX_syropod frankenX_highlevel.launch
 
 * You can add the following arguments to run the syropod high-level controller with additional features. However to simulate in the Gazebo simulation environment, you should have created the required model before. (URDF files, xacro files, Gazebo worlds etc...) Below are the default values for optional high-level arguments.
 
-  * Default Configuration: `config:=syropod` (loads syropod.yaml for SHC)
-  * Gait Parameters: `gait:=gait` (loads gait.yaml for SHC)
-  * Auto-Pose Parameters: `auto_pose:=auto_pose` (loads auto_pose.yaml for SHC)
+  * Default Configuration: `config:=syropod` (loads syropod.yaml for OpenSHC)
+  * Gait Parameters: `gait:=gait` (loads gait.yaml for OpenSHC)
+  * Auto-Pose Parameters: `auto_pose:=auto_pose` (loads auto_pose.yaml for OpenSHC)
   * Control input method: `control:=joy` ('rqt' to use rqt reconfigure control; 'key' to use keyboard)
   * RVIZ Visualisation: `rviz:=true`
   * Gazebo Simulation: `gazebo:=false`
@@ -91,6 +91,6 @@ roslaunch frankenX_syropod frankenX_highlevel.launch gait:=gait_experimental
   * Auto Posing Cycle Parameters - `arg=auto_pose`
     * `~/openshc_ws/src/frankenX_syropod/config/auto_pose.yaml`
 
-* Consult [SHC config](https://github.com/csiro-robotics/syropod_highlevel_controller/tree/master/config) for details.
+* Consult [OpenSHC config](https://github.com/csiro-robotics/syropod_highlevel_controller/tree/master/config) for details.
 
-[Back to Implementing SHC on a PC](shc_pc.md)
+[Back to Implementing OpenSHC on a PC](shc_pc.md)

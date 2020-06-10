@@ -2,9 +2,9 @@
 
 [![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
 
-[Back to Implementing SHC on a PC](shc_pc.md)
+[Back to Implementing OpenSHC on a PC](shc_pc.md)
 
-The first step of implementing SHC is to install ROS Melodic on your Ubuntu 18.04 LTS System by the following terminal commands. You can visit [Ubuntu install of ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) to see a detailed guide on how to install ROS Melodic.
+The first step of implementing OpenSHC is to install ROS Melodic on your Ubuntu 18.04 LTS System by the following terminal commands. You can visit [Ubuntu install of ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) to see a detailed guide on how to install ROS Melodic.
 
 1.1 First setup your sources.list by,
 

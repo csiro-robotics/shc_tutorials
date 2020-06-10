@@ -1,10 +1,10 @@
-# 6. OPTIONAL: Setting Up SHC to Run at Launch
+# 6. OPTIONAL: Setting Up OpenSHC to Run at Launch
 
 [![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
 
 [Previous: Configuring The Wireless Access Point](shc_raspi4_configure_AP.md)
 
-This step is optional. The instructions below outline enabling the robot to launch SHC and prepare to walk on startup rather than requiring manual activation and are adapted from this [article](https://risc.readthedocs.io/2-auto-service-start-afer-boot.html)
+This step is optional. The instructions below outline enabling the robot to launch OpenSHC and prepare to walk on startup rather than requiring manual activation and are adapted from this [article](https://risc.readthedocs.io/2-auto-service-start-afer-boot.html)
 
 6.1 Create a folder in which to store your launch script, then create a launch script and make it executable
 
@@ -61,4 +61,4 @@ rostopic list
 
 into the terminal. If the list is not empty the script should run as expected when it receives controller input.
 
-[Next: Launching SHC](shc_raspi4_launch.md)
+[Next: Launching OpenSHC](shc_raspi4_launch.md)

@@ -4,7 +4,7 @@
 
 [Previous: Enabling SSH](shc_raspi_enable_ssh.md)
 
-Before launching the SHC launch files, you have to follow these steps with the legged robot. Here we are using a slightly modified [Trossen Robotics PhantomX mk 1 hexapod robot](https://www.trossenrobotics.com/phantomx-ax-hexapod-mk1.aspx). The following image shows the robot before connecting the servo cables to the hub.
+Before launching the OpenSHC launch files, you have to follow these steps with the legged robot. Here we are using a slightly modified [Trossen Robotics PhantomX mk 1 hexapod robot](https://www.trossenrobotics.com/phantomx-ax-hexapod-mk1.aspx). The following image shows the robot before connecting the servo cables to the hub.
 
 ![hexapod_body](media/hexapod_body.jpg "Hexapod before assembling")
 
@@ -32,10 +32,10 @@ Before launching the SHC launch files, you have to follow these steps with the l
 
 ![hexapody_assembled_raspi](media/hexapod_assembled_raspi.jpg "Hexapod after assembling")
 
-9.7 Modify the Syropod configuration file (syropod.yaml) according to the legged robot parameters. The important parameters are the [Denavit-Hartenberg (DH) parameters](https://en.wikipedia.org/wiki/Denavit%E2%80%93Hartenberg_parameters) of the robot's leg links, body clearance (height from the floor to the body), desired leg stance positions. See [SHC config](https://github.com/csiro-robotics/syropod_highlevel_controller/tree/master/config) for more information.
+9.7 Modify the Syropod configuration file (syropod.yaml) according to the legged robot parameters. The important parameters are the [Denavit-Hartenberg (DH) parameters](https://en.wikipedia.org/wiki/Denavit%E2%80%93Hartenberg_parameters) of the robot's leg links, body clearance (height from the floor to the body), desired leg stance positions. See [OpenSHC config](https://github.com/csiro-robotics/syropod_highlevel_controller/tree/master/config) for more information.
 
 9.8 Modify the motor configuration file (syropod_motors.yaml) such that the motor IDs of the actual motors match with the desired convention. You can check the IDs of motors by the tool [Dynamixel Wizard](https://emanual.robotis.com/docs/en/software/rplus1/dynamixel_wizard/) in [RoboPlus software by Robotis](http://www.robotis.us/roboplus-r-educational-software-apps/).
 
 
-[Next: Launching SHC](shc_raspi_launch_shc.md)
+[Next: Launching OpenSHC](shc_raspi_launch_shc.md)
 

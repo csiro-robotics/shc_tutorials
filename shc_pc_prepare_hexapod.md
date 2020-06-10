@@ -4,7 +4,7 @@
 
 [Previous: Simulating in Gazebo Simulation Environment](shc_pc_gazebo_simulation.md)
 
-Before launching the SHC launch files, you have to follow these steps with the legged robot. Here we are using a slightly modified [Trossen Robotics PhantomX mk 1 hexapod robot](https://www.trossenrobotics.com/phantomx-ax-hexapod-mk1.aspx). The following image shows the robot before connecting the servo cables to the hub.
+Before launching the OpenSHC launch files, you have to follow these steps with the legged robot. Here we are using a slightly modified [Trossen Robotics PhantomX mk 1 hexapod robot](https://www.trossenrobotics.com/phantomx-ax-hexapod-mk1.aspx). The following image shows the robot before connecting the servo cables to the hub.
 
 ![hexapod_body](media/hexapod_body.jpg "Hexapod before assembling")
 
@@ -37,4 +37,4 @@ The following image shows the modified hexapod robot with the cables connected.
 5.7 Modify the motor configuration file (syropod_motors.yaml) such that the motor IDs of the actual motors match with the desired convention. You can check the IDs of motors by the tool [Dynamixel Wizard](https://emanual.robotis.com/docs/en/software/rplus1/dynamixel_wizard/) in [RoboPlus software by Robotis](http://www.robotis.us/roboplus-r-educational-software-apps/).
 
 
-[Next: Launching SHC](shc_pc_launch_shc.md)
+[Next: Launching OpenSHC](shc_pc_launch_shc.md)

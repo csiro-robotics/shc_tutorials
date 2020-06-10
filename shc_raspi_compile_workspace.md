@@ -4,7 +4,7 @@
 
 [Previous: Create the Catkin Workspace](shc_raspi_compile_workspace.md)
 
-Since a Raspberry Pi has limited resources, the compiling of the Syropod Highlevel Controller (SHC) package requires to create a swapfile of 4GB to overcome insufficient memory.
+Since a Raspberry Pi has limited resources, the compiling of the OpenSHC package requires to create a swapfile of 4GB to overcome insufficient memory.
 
 6.1 Disable swapoff by,
 

@@ -67,7 +67,7 @@ catkin build
 source ~/openshc_ws/devel/setup.bash
 ```
 
-3.11 You have to source the devel/setup.bash file for each terminal session you want to use SHC. You can edit the .bashrc file to get it automatically sourced to each terminal session. Open the .bashrc file by,
+3.11 You have to source the devel/setup.bash file for each terminal session you want to use OpenSHC. You can edit the .bashrc file to get it automatically sourced to each terminal session. Open the .bashrc file by,
 
 ```bash
 nano ~/.bashrc

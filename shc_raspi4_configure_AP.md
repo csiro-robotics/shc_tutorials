@@ -136,4 +136,4 @@ iptables-restore < /etc/iptables.ipv4.nat
 
 5.9 Reboot the robot and check the hotspot is visible under the SSID you specified.
 
-[Next: OPTIONAL: Setting Up SHC to Run at Launch](shc_raspi4_run_at_launch.md)
+[Next: OPTIONAL: Setting Up OpenSHC to Run at Launch](shc_raspi4_run_at_launch.md)

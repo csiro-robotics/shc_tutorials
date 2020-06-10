@@ -1,10 +1,10 @@
-# 7. Launching SHC
+# 7. Launching OpenSHC
 
 [![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
 
-[Previous: OPTIONAL: Setting Up SHC to Run at Launch](shc_raspi4_run_at_launch.md)
+[Previous: OPTIONAL: Setting Up OpenSHC to Run at Launch](shc_raspi4_run_at_launch.md)
 
-After preparing the legged robot, you can launch the ROS launch files and run SHC on the real legged robot.
+After preparing the legged robot, you can launch the ROS launch files and run OpenSHC on the real legged robot.
 
 7.1 Power on the legged robot to power the motors and the Raspberry Pi.
 
@@ -59,4 +59,4 @@ roslaunch frankenX_syropod frankenX_start.launch
 
 7.14 See [Troubleshooting](troubleshooting.md) if you encounter any problems.
 
-[Back to Implementing SHC on a Raspberry Pi 4](shc_raspi4.md)
+[Back to Implementing OpenSHC on a Raspberry Pi 4](shc_raspi4.md)

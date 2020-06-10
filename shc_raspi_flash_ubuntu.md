@@ -2,9 +2,9 @@
 
 [![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
 
-[Back to Implementing SHC on a Raspberry Pi 3](shc_raspi.md)
+[Back to Implementing OpenSHC on a Raspberry Pi 3](shc_raspi.md)
 
-The first step of implementing SHC on a Raspberry Pi 3 is to flash Ubuntu Server 18.04 image to the Raspberry Pi 3. The following steps will help you to download and flash a Ubuntu Server 18.04 image to a SD card.
+The first step of implementing OpenSHC on a Raspberry Pi 3 is to flash Ubuntu Server 18.04 image to the Raspberry Pi 3. The following steps will help you to download and flash a Ubuntu Server 18.04 image to a SD card.
 
 1.1 Download the Ubuntu Server 18.04 image for [Raspberry Pi 3](https://wiki.ubuntu.com/ARM/RaspberryPi). (Ubuntu Server 18.04.3 arm64 image for Raspberry Pi 3B/3B+)
 

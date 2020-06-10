@@ -6,7 +6,7 @@
 
 ---
 
-**Problem:** When launching SHC, you get an error saying, "could not open port: No such file or directory".
+**Problem:** When launching OpenSHC, you get an error saying, "could not open port: No such file or directory".
 
 **Solution:** You have to modify the "port name" parameter in the dynamixel_controller_manager.launch file in the launch folder of the syropod package. You can identify the relevant port by running,
 
@@ -18,7 +18,7 @@ in the terminal for the two occasions the USB dynamixel converter is plugged in 
 
 ---
 
-**Problem:** When launching SHC, you get an error saying, "could not open port: Device or resource busy".
+**Problem:** When launching OpenSHC, you get an error saying, "could not open port: Device or resource busy".
 
 **Solution:** Wait for some time and run the launch file again. If you are running the CSIRO Pi Hat this can be a sign that bluetooth was not disabled correctly, check you've followed all steps and try again.
 
@@ -36,7 +36,7 @@ in the terminal for the two occasions the USB dynamixel converter is plugged in 
 
 ---
 
-**Problem:** When launching SHC, the robot movements are pretty slow and the robot seems to struggle.
+**Problem:** When launching OpenSHC, the robot movements are pretty slow and the robot seems to struggle.
 
 **Solution:** Check the frequency of the state and command topics of joints by running the following two commands in the terminal and make sure they are in a similar range. (Ex:- 50Hz and 47Hz)
 
@@ -69,7 +69,7 @@ Check the value in time.sleep function under ping, read and write functions and 
 
 **Problem:** Is there a way to launch the files on startup without using a display or SSH?
 
-**Solution:** See the following page on running SHC at launch [here](shc_raspi4_run_at_launch.md)
+**Solution:** See the following page on running OpenSHC at launch [here](shc_raspi4_run_at_launch.md)
 
 ---
 
