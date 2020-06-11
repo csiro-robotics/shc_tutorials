@@ -36,7 +36,7 @@ catkin build
 source ~/openshc_ws/devel/setup.bash
 ```
 
-4.6 Plug a gamepad controller into your machine such as the [Logitech F710 Wireless Gamepad](https://www.logitechg.com/en-au/products/gamepads/f710-wireless-gamepad.940-000119.html) for control. Other gamepads may be used, but the mapping may differ.
+4.6 Plug a gamepad controller into your machine such as the [Logitech F710 Wireless Gamepad](https://www.logitechg.com/en-au/products/gamepads/f710-wireless-gamepad.940-000119.html) for control. Ensure the controller is in XInput mode. Other gamepads may be used, but the mapping may differ.
 
 ![joystick](media/joystick.jpg "Logitech Joystick")
 

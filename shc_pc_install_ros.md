@@ -30,9 +30,10 @@ sudo apt update
 sudo apt install ros-melodic-desktop-full
 ```
 
-1.5 Before using ROS, initialize ROS by the following two commands.
+1.5 Before using ROS, install useful build tools and dependencies by the following commands.
 
 ```bash
+sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
 sudo rosdep init
 rosdep update
 ```
