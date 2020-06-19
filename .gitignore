@@ -1,0 +1,59 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# OS X
+.DS_Store
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.log
+*.gz
+*.out
+*.toc
+
+# Editors
+.cproject
+.project
+.settings
+*.pydevproject
+*.pyc
+*.idea
+*.sublime*
+*.vscode
+
+# Others
+*~
+*.kate-swp
+*.kdev*
+.catkin_workspace
+
+# Catkin spaces
+build/
+devel/
+install/
+logs/
+
+
+
+
