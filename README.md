@@ -13,7 +13,10 @@ OpenSHC can be used to control simulated legged robots in RViz or Gazebo as well
 3. [Implementing OpenSHC on a Raspberry Pi 4](shc_raspi4.md)
 4. [Troubleshooting](troubleshooting.md)
 
-[![Gizmo Wizmo Zero](https://i.imgur.com/HCrmRDS.gif "CSIRO Syropods")](https://research.csiro.au/robotics/our-work/research-areas/legged-robots/)
+<p align="center">
+<a href="https://research.csiro.au/robotics/our-work/research-areas/legged-robots/"><img alt="Gizmo Wizmo Zero" align="center" width="500" src="https://i.imgur.com/HCrmRDS.gif"/></a>
+</p>
+
 
 ## Authors
 
