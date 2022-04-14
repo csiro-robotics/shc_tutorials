@@ -39,16 +39,30 @@ sudo apt install ros-melodic-desktop-full
 
 1.5 Before using ROS, install useful build tools and dependencies by the following commands.
 
+For ROS Noetic:
+
 ```bash
 sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
 sudo rosdep init
 rosdep update
 ```
 
+For ROS Melodic:
+```bash
+sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
+sudo rosdep init
+rosdep update
+```
+
 1.6 You can enable ROS on your current shell by,
 
+For ROS Noetic:
 ```bash
-source /opt/ros/$ROS_DISTR/setup.bash
+source /opt/ros/noetic/setup.bash
+```
+For ROS Melodic
+```bash
+source /opt/ros/melodic/setup.bash
 ```
 
 1.7 However it is convenient to source the setup.bash file to every shell. You can do this by editing the .bashrc file in your system. Open the .bashrc file by,
@@ -60,7 +74,7 @@ nano ~/.bashrc
 1.8 Then add the following line to the end of the file and save it.
 
 ```bash
-source /opt/ros/$ROS_DISTR/setup.bash
+source /opt/ros/$ROS_DISTR0/setup.bash
 ```
 
 * If you are using Anaconda please comment the line `export PATH=/USER/anaconda3/bin:$PATH` (can be slightly different to this) if it is shown in the .bashrc file at the same time because it can cause confusions with ROS.
