@@ -4,7 +4,8 @@
 
 [Back to Implementing OpenSHC on a PC](shc_pc.md)
 
-The first step of implementing OpenSHC is to install ROS Melodic on your Ubuntu 18.04 LTS System by the following terminal commands. You can visit [Ubuntu install of ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) to see a detailed guide on how to install ROS Melodic.
+The first step of implementing OpenSHC is to install ROS Noetic on your Ubuntu 20.04 LTS System or ROS Melodic on your Ubuntu 18.04 LTS System by the following terminal commands. You can visit [Ubuntu install of ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu) to see a detailed guide on how to install ROS Noetic, or [Ubuntu install of ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) for ROS Melodic.
+
 
 1.1 First setup your sources.list by,
 
@@ -15,7 +16,8 @@ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main
 1.2 Then setup your keys by,
 
 ```bash
-sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+sudo apt install curl # if you haven't already installed curl
+curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
 ```
 
 1.3 Make sure your debian packages are up to date by,
@@ -24,14 +26,28 @@ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31
 sudo apt update
 ```
 
-1.4 Install the full version of ROS Melodic by,
+1.4 Install the full version of ROS Noetic by,
 
+```bash
+sudo apt install ros-noetic-desktop-full
+```
+or if using ROS Melodic:
 ```bash
 sudo apt install ros-melodic-desktop-full
 ```
 
+
 1.5 Before using ROS, install useful build tools and dependencies by the following commands.
 
+For ROS Noetic:
+
+```bash
+sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+sudo rosdep init
+rosdep update
+```
+
+For ROS Melodic:
 ```bash
 sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
 sudo rosdep init
@@ -40,6 +56,11 @@ rosdep update
 
 1.6 You can enable ROS on your current shell by,
 
+For ROS Noetic:
+```bash
+source /opt/ros/noetic/setup.bash
+```
+For ROS Melodic
 ```bash
 source /opt/ros/melodic/setup.bash
 ```
@@ -53,7 +74,7 @@ nano ~/.bashrc
 1.8 Then add the following line to the end of the file and save it.
 
 ```bash
-source /opt/ros/melodic/setup.bash
+source /opt/ros/$ROS_DISTR0/setup.bash
 ```
 
 * If you are using Anaconda please comment the line `export PATH=/USER/anaconda3/bin:$PATH` (can be slightly different to this) if it is shown in the .bashrc file at the same time because it can cause confusions with ROS.
@@ -63,5 +84,6 @@ source /opt/ros/melodic/setup.bash
 ```bash
 roscore
 ```
+
 
 [Next: Installing Other Required Packages](shc_pc_install_other.md)
